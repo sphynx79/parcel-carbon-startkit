@@ -1,0 +1,30 @@
+{
+  "name": "carbon-components-getting-started",
+  "version": "1.0.0",
+  "description": "Sample project for getting started with the vanilla components from the Carbon Design System.",
+  "main": "index.js",
+  "author": "browserino <miboscol@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=development parcel index.html",
+    "build": "NODE_ENV=production parcel build index.html --public-url ./ && parcel build 404.html"
+  },
+  "dependencies": {
+    "@carbon/colors": "^10.1.1",
+    "@carbon/grid": "^10.1.1",
+    "@carbon/import-once": "^10.1.0",
+    "@carbon/layout": "^10.1.1",
+    "@carbon/themes": "^10.1.1",
+    "@carbon/type": "^10.1.1",
+    "@ibm/plex": "^1.4.1",
+    "carbon-components": "^10.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "autoprefixer": "^9.5.1",
+    "cssnano": "^4.1.10",
+    "node-sass": "^4.12.0",
+    "postcss-modules": "^1.4.1"
+  }
+}

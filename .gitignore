@@ -1,0 +1,14 @@
+# dependencies
+node_modules
+bower_components
+.cache
+
+# misc
+.sass-cache
+.eslintcache
+npm-debug.log*
+
+# mac
+.DS_Store
+yarn.lock
+*.log

@@ -5,9 +5,13 @@
   "main": "index.js",
   "author": "browserino <miboscol@gmail.com>",
   "license": "MIT",
+  "engineStrict": true,
+  "engines": {
+    "node": "^12.0.0"
+  },
   "scripts": {
-    "start": "NODE_ENV=development parcel index.html",
-    "build": "NODE_ENV=production parcel build index.html --public-url ./ && parcel build 404.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./"
   },
   "dependencies": {
     "@carbon/colors": "^10.1.1",
